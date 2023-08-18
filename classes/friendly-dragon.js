@@ -10,12 +10,12 @@ class FriendlyDragon extends Dragon {
 
     hasLifeGoals() {
         this.lifeGoals.forEach( e => {
-            return `${this.name} likes to ${this.lifeGoals}.`
+            console.log(`${this.name} likes to ${e}`)
         })
     }
 
     helpsPeople() {
-        return `${this.name} helps their friend ${friend}.`
+        return `${this.name} helps their friend ${this.friend}`
     }
 
 
